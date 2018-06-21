@@ -62,6 +62,7 @@ As a team, create a Group Agreement as a markdown file to document the following
 * How and when will you escalate the conflict if your attempts are unsuccessful?
 
 1. Communication Plan
+
 Before beginning to write code, determine how your group will communicate with each other, both in person and online. 
 
 _Why:_
@@ -73,6 +74,7 @@ Add your communication plan to your Group Agreement. Some things to consider:
 * How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
 
 1. Project Scope
+
 Determine which features make up your minimum viable product (MVP). This should include any features you absolutely want to have in your application for presentation day. 
 
 _Why:_
