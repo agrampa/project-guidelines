@@ -269,10 +269,35 @@ If a pull request from a teammate has been merged and you working on a branch bu
 
 Handle merge conflicts, if there are any. Check all of your project files for the markers that indicate merge conflicts. In other words, the `>>>>>>>>>` and `HEAD` lines of code. Edit the code to remove the redundancies causing the merge conflict, and eliminate the markers. Add and commit the files where the merges were resolved. 
 
+Add and commit your code regularly. Use meaningful commit messages. As a team, decide on a convention to follow for commit messages. Do not include sarcastic comments, vague messages, or profanity.
+_Why:_
+> This will allow the entire team to review a list of commits on GitHub and know exactly what changes are included in that specific commit. 
+
 [Back to top](#top)
 
 <a id="pull-requests"></a>
 ## Pull Requests
+When your features are completed and tested on your local branch, you are ready to add, commit, and push those changes to GitHub. Then, create a pull request from your feature branch to the development branch. Do not merge your own pull request.
+
+_Why:_
+> It is vital to have a second set of eyes on everyone's code to ensure that it is following the agreed-upon style and naming conventions. This step also allows other teammates to review the changes and ensure that the logic makes sense for the rest of the project.
+
+If the pull request is not ready to be merged, leave detailed comments and request changes from the creator of the pull request. 
+
+When the pull request is merged to development, every team member should check out their own local development branch and pull the changes. Then, test the code in the browser to ensure that the desire features have been implemented correctly.
+
+_Why:_
+> Do not assume that the code will work correctly when merged into the development branch. Confirm it in several different browsers and on multiple screen sizes. 
+
+Periodically, as determined by your team, make a pull request from the development branch to the master branch and follow the same process to test the changes to the master branch on everyone's local computers. Merging pull requests to the master branch should also update the deployed site, so confirm functionality there as well.
+
+_Why:_
+> Don't assume that the features have been integrated, confirm it.
+
+After a pull request is merged, delete the branch on GitHub.
+
+_Why:_
+> Excessive branches lingering on GitHub can clutter your repository. If the branch is needed again, check it out locally, work on the branch, and it will reopen the branch on GitHub after you add, commit, and push the changes.
 
 [Back to top](#top)
 
