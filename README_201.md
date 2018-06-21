@@ -35,7 +35,7 @@ _Why:_
 
 Your pitch should include the following:
 
-1. ### <a id="user-stories">User Stories</a>
+### <a id="user-stories">User Stories</a>
 User stories describe the features of an application based on the target audience. Each user story should map directly to a feature and should focus on who makes up the target audience, what they will gain from the feature, and why this feature is being included in the application. User stories follow the format of "As a ____, I want ____ so that ____."
 
 _Why:_
@@ -43,13 +43,13 @@ _Why:_
 
 As you plan your project, define your user stories and corresponding features. If you have more features than user stories, write more user stories. If you have more user stories than features, write more features.
 
-1. ### <a id="wireframes">Wireframes</a>
+### <a id="wireframes">Wireframes</a>
 Once you have a concept in mind, create visual representations of your application, called wireframes. A wireframe can be drawn on the whiteboard, on paper, or with online tools. Each page or view of your application should have its own wireframe and some pages may have multiple wireframes to illustrate changes based on user interation. For example, you may have a wireframe to show how a page appears when it loads, and a second wireframe showing that same page as it will appear when a user selects an option from a drop-down menu or clicks a button.
 
 _Why:_
 > Wireframes provide a visualization of your final application. This is useful to make sure the team is in agreement on the general appearance of the application and can help to identify potentially unpleasant user experiences.
 
-1. ### <a id="conflict-plan">Conflict Plan</a>
+### <a id="conflict-plan">Conflict Plan</a>
 Your team should agree on a process for handing disagreements, should they arise. It is better to have a plan in place ahead of time so you can all refer back to it if necessary. 
 
 _Why:_
@@ -61,7 +61,7 @@ As a team, create a Group Agreement as a markdown file to document the following
 * What is your process to resolve conflicts?
 * How and when will you escalate the conflict if your attempts are unsuccessful?
 
-1. ### <a id="communication">Communication Plan</a>
+### <a id="communication">Communication Plan</a>
 Before beginning to write code, determine how your group will communicate with each other, both in person and online. 
 
 _Why:_
@@ -72,7 +72,7 @@ Add your communication plan to your Group Agreement. Some things to consider:
 * What is your strategy for ensuring everyone's voices are heard?
 * How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
 
-1. ### <a id="project-scope">Project Scope</a>
+### <a id="project-scope">Project Scope</a>
 Determine which features make up your minimum viable product (MVP). This should include any features you absolutely want to have in your application for presentation day. 
 
 _Why:_
