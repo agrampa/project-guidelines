@@ -260,7 +260,7 @@ When you start a new feature and any time a pull request is merged into the deve
 _Why:_
 > Always make sure you are working off of the most up-to-date code base. This will prevent writing redundant code or overwriting code that you or another team member wrote.
 
-Whenever a pull request is merged from development to master, checkout your local master branch and then pull the master branch. 
+Whenever a pull request is merged from development to master, check out your local master branch and then pull the master branch. 
 
 _Why:_
 > Always keep your local master up to date to ensure you have the most up to date changes locally.
@@ -270,6 +270,7 @@ If a pull request from a teammate has been merged and you working on a branch bu
 Handle merge conflicts, if there are any. Check all of your project files for the markers that indicate merge conflicts. In other words, the `>>>>>>>>>` and `HEAD` lines of code. Edit the code to remove the redundancies causing the merge conflict, and eliminate the markers. Add and commit the files where the merges were resolved. 
 
 Add and commit your code regularly. Use meaningful commit messages. As a team, decide on a convention to follow for commit messages. Do not include sarcastic comments, vague messages, or profanity.
+
 _Why:_
 > This will allow the entire team to review a list of commits on GitHub and know exactly what changes are included in that specific commit. 
 
