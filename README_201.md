@@ -245,38 +245,29 @@ Day 5: Presentation Day!
 ## Git
 The entire team should follow the same process for synchronizing the code base on GitHub and on their local computers. 
 
-## When you start a new feature...
-* Start from an up-to-date _master_ branch   
- * `git checkout master`  
- * `git pull origin master`
- *  Create a new feature branch with `git checkout -b <branchname>`  
-* Do work on your feature branch and **add**, **commit**, and **push**   
- * `git add <file>`  
- * `git commit -m <useful message>`   
- * `git push origin <feature_branch_name>`
-* On GitHub...
- * Create a Pull Request (PR) for that branch on GitHub
- * Have someone else review the code in the PR and merge it
+The master branch should not contain any broken code. From the master branch, create a development branch. This will be the branch where several team members can combine their code and it can be tested prior to merging into the master branch. If everything is functioning correctly on the development branch, the changes can be merged into master.
 
+_Why:_
+> The master branch is the source of your deployment, which should only contain fully functional code. 
 
-## Time for a Merge Party!
+All work should be on a feature branch with a meaningful name. Feature branches should be created off of the development branch. When the feature is completed, create a pull request from your feature branch to the development branch. 
 
-**WHEN A PULL REQUEST FROM SOMEONE ELSE'S \<FEATURE BRANCH> IS MERGED TO MASTER, EVERYONE MUST DO THESE STEPS**  
+_Why:_
+> Team members can work on features in an isolated branch, then test it by creating a pull request to the development branch. This preserves the purity of the master branch.
 
- * commit changes to your _feature branch_
-  * `git add <file>`  
-  * `git commit -m <useful message>`   
- * update your local _master_ branch  
-  * `git checkout master`   
-  * `git pull origin master`  
- * update your _feature branch_ with changes in _master_  
- 	* `git checkout <feature_branch_name>`  
-  * `git merge master`   
- * handle merge conflicts _if there are any_  
-  	* Check all of your project files for the markers that indicate merge conflicts (in other words, the `>>>>>>>>>` and `HEAD` stuff that has mysteriously appeared in your code)
-  	* Edit the code to remove the redundancies causing the merge conflict, and eliminate the markers
-  	* `git add <affected-files>`
-  	* `git commit -m "merged master"`  
+When you start a new feature and any time a pull request is merged into the development branch, make sure that your local development branch is up to date. Check out the development branch, then pull the development branch. Create your new branch off of the updated development branch.
+
+_Why:_
+> Always make sure you are working off of the most up-to-date code base. This will prevent writing redundant code or overwriting code that you or another team member wrote.
+
+Whenever a pull request is merged from development to master, checkout your local master branch and then pull the master branch. 
+
+_Why:_
+> Always keep your local master up to date to ensure you have the most up to date changes locally.
+
+If a pull request from a teammate has been merged and you working on a branch but are not ready to push your changes, you can still pull those changes while continuing to work on your feature branch. To do so, add and commit any changes on your local feature brach. Check out your master or development branch and pull the changes. Then, check out your feature branch and run the command `git merge master` if the master branch was pulled and `git merge development` if the development branch was pulled. 
+
+Handle merge conflicts, if there are any. Check all of your project files for the markers that indicate merge conflicts. In other words, the `>>>>>>>>>` and `HEAD` lines of code. Edit the code to remove the redundancies causing the merge conflict, and eliminate the markers. Add and commit the files where the merges were resolved. 
 
 [Back to top](#top)
 
