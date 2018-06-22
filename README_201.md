@@ -385,11 +385,10 @@ Technical merit is graded based on the following criteria:
 
 - Generally useful and functional
   - Works as expected with no bugs
-  - Has at least three distinct pages with clear navigation, one of which is ***must be*** an "About Us" page
+  - Has at least three distinct pages with clear navigation, one of which is must be an "About Us" page
   - Has at least two pages that accept and process user input
   - State is persisted between page reloads
   - Deployed live on the Internet via GitHub Pages
-  - Optional: purchase and connect a domain (as of October  2017, Namecheap.com offers a wide variety of domain names for $0.88).
 
 [Back to top](#top)
 
